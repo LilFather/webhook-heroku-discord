@@ -45,14 +45,14 @@ def valid(id, token):
             # if error, show generic
             embed = {
                 "title": "Error on webhook",
-                "url": "ElEkb9KVMAE0XXw.jpg",
+                "url": "https://github.com/TrianguloY/webhook-discord/issues",
                 "description": f"Click to open bot page.\nException: {e}\nFull response: {request.data}",
             }
 
     # create and send
     data = {
         "username": "Shine2 Status",
-        "avatar_url": "https://drive.google.com/file/d/178W6BD74fcsfYkgVfjCH-YhEpmK9CMkk/preview",
+        "avatar_url": "ElEkb9KVMAE0XXw.jpg",
         "embeds": [embed],
     }
     r = requests.post(url, json=data)
