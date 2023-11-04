@@ -4,7 +4,6 @@ import hashlib
 import requests
 from flask import Flask, request
 
-from PIL import Image
 
 app = Flask(__name__)
 
@@ -52,7 +51,7 @@ def valid(id, token):
     # create and send
     data = {
         "username": "Shine2 Status",
-        "avatar_url": "ElEkb9KVMAE0XXw.jpg",
+        "avatar_url": "https://cdn.discordapp.com/attachments/777204267182194708/1170441163489149028/ElEkb9KVMAE0XXw.jpg?ex=65590d47&is=65469847&hm=bb585e253ddd04b8cc2f7ea8353783b48d5e87ed97bed9f0a391648be42327e7&",
         "embeds": [embed],
     }
     r = requests.post(url, json=data)
