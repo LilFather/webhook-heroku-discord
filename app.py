@@ -4,6 +4,8 @@ import hashlib
 import requests
 from flask import Flask, request
 
+from PIL import Image
+
 app = Flask(__name__)
 
 
@@ -43,7 +45,7 @@ def valid(id, token):
             # if error, show generic
             embed = {
                 "title": "Error on webhook",
-                "url": "https://github.com/TrianguloY/webhook-discord/issues",
+                "url": "ElEkb9KVMAE0XXw.jpg",
                 "description": f"Click to open bot page.\nException: {e}\nFull response: {request.data}",
             }
 
