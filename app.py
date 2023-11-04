@@ -50,7 +50,7 @@ def valid(id, token):
     # create and send
     data = {
         "username": "Shine2 Status",
-        "avatar_url": "https://drive.google.com/file/d/178W6BD74fcsfYkgVfjCH-YhEpmK9CMkk/view?usp=sharing",
+        "avatar_url": "https://drive.google.com/file/d/178W6BD74fcsfYkgVfjCH-YhEpmK9CMkk/preview",
         "embeds": [embed],
     }
     r = requests.post(url, json=data)
