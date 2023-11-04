@@ -49,8 +49,8 @@ def valid(id, token):
 
     # create and send
     data = {
-        "username": "Heroku",
-        "avatar_url": "https://www.herokucdn.com/favicons/apple-touch-icon-152x152.png",
+        "username": "Shine2 Status",
+        "avatar_url": "https://drive.google.com/file/d/178W6BD74fcsfYkgVfjCH-YhEpmK9CMkk/view?usp=sharing",
         "embeds": [embed],
     }
     r = requests.post(url, json=data)
